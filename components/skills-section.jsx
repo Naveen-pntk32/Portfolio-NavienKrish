@@ -13,7 +13,7 @@ const skills = [
   { name: "SQL", logo: "/logo/icons8-sql-100-2.png" },
   { name: "GIT", logo: "/logo/icons8-git-100.png" },
   { name: "REST API", logo: "/logo/icons8-rest-api-100.png" },
-  { name: "VERCEL", logo: "/logo/icons8-vercel-100.png" },
+  { name: "NODE JS", logo: "/logo/icons8-nodejs-48.png" },
 ]
 
 export function SkillsSection() {

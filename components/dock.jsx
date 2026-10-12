@@ -14,7 +14,7 @@ export function Dock() {
   const handleClick = (href, isResume) => {
     if (isResume) {
       // Open resume in new tab
-      window.open("/Naveen-DevResume.pdf", "_blank", "noopener,noreferrer")
+      window.open(encodeURI("/Naveen-Dev Resume.pdf"), "_blank", "noopener,noreferrer")
       return
     }
 
@@ -35,7 +35,7 @@ export function Dock() {
             item.isResume ? (
               <a
                 key={item.label}
-                href="/Naveen-DevResume.pdf"
+                href={encodeURI("/Naveen-Dev Resume.pdf")}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex flex-col items-center space-y-1 sm:space-y-1.5 transition-all duration-200 hover:scale-110 active:scale-95 px-1.5 sm:px-2.5 md:px-3 py-1 sm:py-1.5 rounded-xl"
