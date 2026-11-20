@@ -87,7 +87,8 @@ const config = {
         'accordion-up': 'accordion-up 0.2s ease-out'
       },
       fontFamily: {
-        olifant: ["Olifant", "serif"],
+        olifant: ["Avant Garde Demi BT", "Avant Garde Book BT", "sans-serif"],
+        "avant-garde": ["Avant Garde Demi BT", "Avant Garde Book BT", "sans-serif"],
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

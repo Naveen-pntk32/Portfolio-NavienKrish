@@ -27,10 +27,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className="scroll-smooth">
       <head>
-        <link
-          href="https://db.onlinewebfonts.com/c/030ff7f43dec5bbb2c99976c7acdd7b1?family=Olifant+W00+Normal"
-          rel="stylesheet"
-        />
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-67ESBGLD5L"
           strategy="afterInteractive"

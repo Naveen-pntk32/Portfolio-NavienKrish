@@ -3,33 +3,20 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "Olifant";
-  src: url("https://db.onlinewebfonts.com/t/030ff7f43dec5bbb2c99976c7acdd7b1.eot");
-  src: url("https://db.onlinewebfonts.com/t/030ff7f43dec5bbb2c99976c7acdd7b1.eot?#iefix")format("embedded-opentype"),
-  url("https://db.onlinewebfonts.com/t/030ff7f43dec5bbb2c99976c7acdd7b1.woff2")format("woff2"),
-  url("https://db.onlinewebfonts.com/t/030ff7f43dec5bbb2c99976c7acdd7b1.woff")format("woff"),
-  url("https://db.onlinewebfonts.com/t/030ff7f43dec5bbb2c99976c7acdd7b1.ttf")format("truetype"),
-  url("https://db.onlinewebfonts.com/t/030ff7f43dec5bbb2c99976c7acdd7b1.svg#Olifant W00 Normal")format("svg");
-  font-weight: normal;
+  font-family: "Avant Garde Demi BT";
+  src: url("/fonts/AVGARDD_2.woff") format("woff");
+  font-weight: 600 900;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Avant Garde Demi BT";
-  src: url("https://db.onlinewebfonts.com/t/98bf0b578cf58b90a05f8bb6e590c6a1.eot");
-  src: url("https://db.onlinewebfonts.com/t/98bf0b578cf58b90a05f8bb6e590c6a1.eot?#iefix")format("embedded-opentype"),
-  url("https://db.onlinewebfonts.com/t/98bf0b578cf58b90a05f8bb6e590c6a1.woff2")format("woff2"),
-  url("https://db.onlinewebfonts.com/t/98bf0b578cf58b90a05f8bb6e590c6a1.woff")format("woff"),
-  url("https://db.onlinewebfonts.com/t/98bf0b578cf58b90a05f8bb6e590c6a1.ttf")format("truetype"),
-  url("https://db.onlinewebfonts.com/t/98bf0b578cf58b90a05f8bb6e590c6a1.svg#Avant Garde")format("svg");
-  font-weight: normal;
+  font-family: "Avant Garde Book BT";
+  src: url("/fonts/AVGARDN_2.woff") format("woff");
+  font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
-
-/* Since Olifant is not available on Google Fonts, let's use a similar font */
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -55,7 +42,7 @@ html {
 }
 
 body {
-  font-family: var(--font-geist-sans);
+  font-family: "Avant Garde Book BT", "Avant Garde Demi BT", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   overflow-x: hidden;
   margin: 0;
   padding: 0;
@@ -87,7 +74,11 @@ body::-webkit-scrollbar,
   }
   
   .font-avant-garde {
-    font-family: "Avant Garde Demi BT", sans-serif;
+    font-family: "Avant Garde Demi BT", "Avant Garde Book BT", sans-serif;
+  }
+
+  .font-olifant {
+    font-family: "Avant Garde Demi BT", "Avant Garde Book BT", sans-serif;
   }
 }
 

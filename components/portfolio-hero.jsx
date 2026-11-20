@@ -22,14 +22,14 @@ const PortfolioHero = () => {
               {/* Greeting and name */}
               <div className="mt-8 md:mt-12">
                 <BlurText
-                  text='Hey yoo ".'
-                  className="text-[#111439] font-bold font-olifant text-[38px] sm:text-[50px] md:text-[62px] lg:text-[68px] xl:text-[72px] leading-tight"
+                  text='Hey yoo".'
+                  className="text-[#000000] font-avant-garde text-[38px] sm:text-[50px] md:text-[62px] lg:text-[68px] xl:text-[72px] leading-tight"
                   animateBy="words"
                   direction="top"
                   delay={200}
                 />
 
-                <p className="text-[#111439] font-bold font-olifant text-[38px] sm:text-[50px] md:text-[62px] lg:text-[68px] xl:text-[72px] leading-tight mt-1">
+                <p className="text-[#000000] font-bold font-avant-garde text-[38px] sm:text-[50px] md:text-[62px] lg:text-[68px] xl:text-[72px] leading-tight mt-1">
                   I'm Navaneetha Krishnan
                 </p>
               </div>
@@ -47,7 +47,7 @@ const PortfolioHero = () => {
               </h1>
 
               {/* Description */}
-              <p className="text-[rgb(17,20,57)] text-base sm:text-lg md:text-xl lg:text-[22px] max-w-2xl lg:max-w-3xl font-olifant leading-relaxed">
+              <p className="text-[rgb(17,20,57)] text-base sm:text-lg md:text-xl lg:text-[22px] max-w-2xl lg:max-w-3xl font-avant-garde leading-relaxed">
                 <DecryptedText
                   text="I build efficient, scalable software solutions using Python, JavaScript, and React — from clean backend logic to intuitive user interfaces."
                   speed={30}
